@@ -13,11 +13,11 @@ Test Case 3: first element negative & last element positive a= [-3 , 52, -8, 16,
 
 Test Case 4: first element negative & last element negative a= [-3 , 52, -8, 16, 12, -15, 69, -22, 66, -55, 9, 6,-9, 44, -16] Comment on sum: Maximum sum obtained is 170
 
-Observations: Sum obtained in the case-01 where first and last element is positive is the largest. Second largest is case-03 where first element is negative and last element is positive (last element is greater than first). And the lowest sum is in the case-04 where both elements are negative. Therefore we can conclude that the sum od maximum subArray will be largest when both element are positive and least when both are negative
+Observations:    Sum obtained in the case-01 where first and last element is positive is the largest. Second largest is case-03 where first element is negative and last element is positive (last element is greater than first). And the lowest sum is in the case-04 where both elements are negative. Therefore we can conclude that the sum od maximum subArray will be largest when both element are positive and least when both are negative
 
 Code:
+
 import math
-from tkinter import RIGHT
 
 def findMaximumSubArray(a,low,high):
     if low==high:
@@ -90,8 +90,7 @@ print('Starting index of maximum sum array: ',l)
 print('End index of maximum sum array: ',h)
 print('Sum of maximun sum array: ',s)
 
-
-Output:
+output:
 
 
 Test case 1- First and last elements are positive
@@ -113,3 +112,5 @@ Test case-04- First and last elements are negative
 Starting index of maximum sum array:  1
 End index of maximum sum array:  8
 Sum of maximun sum array:  170
+
+
